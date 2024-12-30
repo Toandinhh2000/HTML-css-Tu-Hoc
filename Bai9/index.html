@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width-device=width , initial-scalescale=1.0" />
+        <title>HTML-CSS </title>
+    </head>
+    <body>
+        <!--BEM: Block element modifier-->
+        <!--
+        laptop: Block
+        Keyboard , mouse , touchpad , screen : element
+        laptp big, laptop small: Modifier for block
+        small keyboard, small screen, :Modifier element
+
+        Block__element--modifier
+        Block--modifier
+        Block__element
+        Laptop
+        Laptop__keyboard, Laptop__touchpad, Laptop__screen
+        Laptop--small, Laptop--expensive, Laptop--big
+        laptop__touchpad--smoth, laptop__screen--scale
+
+
+        -->
+        <!--Ex1. 
+        block : login-signup-form-large
+        element: image, title, desc, buttom
+        modifier: primary, secondary
+        -->
+        <!--Block 1 & 22:
+        flash-message
+        flash-message__image, flash-message__title, flash-message__desc, flash-message__buttom
+        -->
+        <!--block1: flash-message__title--primary, flash-message__buttom--primary
+            block2: flash-message__title--secondarysecondary, flash-message__buttom--secondary
+        
+        -->
+            <h3 class="flash-message__title flash-message__title--secondary">
+                Right on
+             </h3>
+             <button class="flash-message__button flash-message__buttom--secondary"></button>
+    </body>
+</html>
